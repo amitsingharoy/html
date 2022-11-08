@@ -1,0 +1,442 @@
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+Experiment -1
+Design a simple web page with head, body and footer, with heading tags, image tag
+
+<!DOCTYPE htm1>
+
+<html>
+<head>
+<style>
+div.container {
+width: 73%;
+border: none;
+margin: auto;
+}
+header,
+footer {
+padding: lem;
+color: white;
+background-color: #007196;
+clear: left;
+text-align: center;
+}
+nav {
+float: right;
+max-width: 16@px;
+height: 134px;
+padding: 1em;
+border: solid #333
+}
+nav ul {
+list-style-type: none;
+padding: @;
+}
+nav ul a {
+text-decoration: none;
+}
+article {
+padding: lem;
+}
+</style>
+<script type="text/javascript"” src="scripts.js">
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+<header>
+<hi>I am a header</h1>
+</header>
+
+<nav>
+<hi1>Navigation</h1>
+<ul>
+<li><a href="#">Selection 1</a></1li>
+<li><a href="#">Selection 2</a></li>
+<li><a href="#">Selection 3</a></1i>
+</ul>
+</nav>
+
+<article>
+<hl>Article</h1>
+<p>I am text in article, also there can be an image:<img src="https://cdn.bitde
+gree.org/learn/pom-laptop.png” style="height: 5@px;"></p>
+</article>
+<footer>I am a footer</footer>
+
+</div>
+
+</body>
+</html>
+
+
+ 
+ 
+
+ 
+
+Experiment -2
+
+2. Design a web site for book information, home page should contain books list, when particular book is
+clicked, information of the books should display in the next page.
+
+<!DOCTYPE htm1>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Killing Floor</title>
+</head>
+<header>
+<a href="Exp2.html">Home(Jack Reacher's Book Collection)</a>
+</header>
+<body>
+<h1 style="color:steelblue;">Killing Floor</h1>
+<img src="https://www. freightlink.co.uk/sites/default/files/resize/u8261/killing-floor-
+320x224.png" alt="Image not Found! ">
+<h2><u>About the Edition: </u></h2>
+<p>
+<ul>
+<li><b>Originally published</b>: March 1997<br></1li>
+<1i><b>Author:</b>Lee Child<br></1i>
+<1i><b>Page count:</b> 522 (Paperback)</1i>
+<li><b>Genres:</b> Novel, Fiction, Mystery, Thriller</li>
+<li><b>Publishers:</b> Bantam Press (UK), G. P. Putnam's Sons (US)</1li>
+</ul>
+</p>
+<details>
+<h3>Description(Summary) :</h3>
+<p>
+Killing Floor is the debut novel by Lee Child, first published in 1997 by Putnam.
+The book won the Anthony Award and Barry Award for best first novel.
+It also is the first book to feature the character Jack Reacher. <br>
+It is written in the first person. The novel has three prequels: The Enemy, Night S
+chool, The Affair.
+</p>
+</details>
+</footer>
+</body>
+</html>
+
+
+ 
+
+<!DOCTYPE htm1>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.e">
+<title>Jack Reacher's Book Collection</title>
+<style>
+img
+{
+width: 1@0@px;
+height :6@Q@px;
+float:right;
+border: 2px solid black;
+border-radius :15px;
+}
+</style>
+</head>
+<body>
+<h1><u>Jack Reacher's Book Collection: </u></h1>
+<img src="https://www.novelsuspects.com/wp-content/uploads/2019/07/The-10-Best-Jack-
+Reacher-Books -According-to-Goodreads - Featured-Image-Novel-
+Suspects.png" alt="Jack Recher Book's Collection.">
+
+<li>
+
+<a href="Exp2-1.html">Killing Floor</a>
+</1li><br>
+<li>
+
+<a href="Exp2-2.html">Die Trying</a>
+</1i><br>
+<li>
+
+<a href="Exp2-3.html">Tripwire</a>
+</1i><br>
+<li>
+
+<a href="Exp2-4.html">The Visitor</a>
+</li><br>
+<li>
+
+<a href="Exp2-5.html">Echo Burning</a>
+</li><br>
+<li>
+
+<a href="Exp2-6.html">Without Fail</a>
+</1li><br>
+<li>
+
+<a href="Exp2-7.html">Persuader</a>
+</1li><br>
+<li>
+
+<a href="Exp2-8.html">The Enemy</a>
+</li><br>
+<li>
+
+<a href="Exp2-9.html">One Shot</a>
+</1i><br>
+<li>
+
+<a href="Exp2-1@.html">The Hard Way</a>
+
+
+ 
+</li><br>
+</body>
+</html>
+
+
+ 
+
+Experiment -3
+
+3. Design a page to display the product information such as name, brand, price and etc with table tag
+
+<!DOCTYPE htm1>
+<html>
+<head>
+<title>Exclusive Products</title>
+<style>
+table, th, td {
+border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h2>Exclusive Product Offers:</h2>
+<table>
+<tr>
+<th>Image</th>
+<th>Product</th>
+<th>Brand</th>
+<th>Price</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><img src="https://images-na.ssl-images-
+amazon. com/images/I/71yXShgxvpL._SL150@_.jpg" alt="Image not found!” width="2@@ px" height=
+"200px"></td>
+<td>Mobile Phone</td>
+<td>Redmi 8A Dual (Sea Blue, 2GB RAM, 32GB Storage) - Dual Cameras & 5,000 mAH
+Battery</td>
+<td>Rs:7,499.00</td>
+<td>
+<1i>13+2MP dual rear AI camera with PDAF | 8MP front camera</li>
+<1i>(6.22-
+inch) HD+ Dot notch display with 152@ x 72@ pixels resolution and 19:9 aspect ratio | 2.5D
+curved glass</li>
+<li>Memory, Storage & SIM: 2GB | 32GB internal memory expandable up to 512GB
+with dedicated memory card slot.</1li>
+<li>Dual SIM (nano+nano) dual-standby (4G+4G)</1li>
+<li>Android Pie v9.@ operating system with 1.95GHz Snapdragon 439 octa core
+processor</1li>
+<1i>500@mAH lithium-polymer battery</1li>
+</td>
+</tr>
+<tr>
+ 
+
+<td><img src="https://images-na.ssl-images-
+amazon.com/images/1I/71ZSpNjE1@L._SL150@_.jpg" alt="Image not found!” width="2@@ px" height=
+"200px"></td>
+<td>Smart Watch</td>
+<td>Mi Smart Band 4- India's No.1 Fitness Band, Up-
+to 2@ Days Battery Life, Color AMOLED Full-Touch Screen</td>
+<td>Rs:2,299.00</td>
+<td>
+<li>Health and wellness tracking at its best with 24/7 automatic heart rati
+ng monitoring and alerts to warn you when the heart rate is high</li>
+<li>With a sturdy 5ATM waterproof built, you can now take your band for a s
+wim. It auto detects your swim style and captures 12 detailed data points for tracking. Con
+nectivity - Bluetooth 5.0</li>
+<li>Up to 2@ days of long lasting battery life for uninterrupted performanc
+e</li>
+<li>Start your day right by understanding your sleep pattern with accurate
+light and deep sleep monitoring</1li>
+</td>
+</tr>
+<tr>
+<td><img src="https://images-na.ssl-images-
+amazon.com/images/1I/61iE5piq4LL._SL15e0_.jpg” alt="Image not found!” width="20@ px" height=
+"200px" ></td>
+<td>Power Bank</td>
+<td>Redmi 20@@@mAh Li-Polymer Power Bank (Black)</td>
+<td>Rs:1,599.00</td>
+<td>
+<1i>200@@mAh Li-Polymer Battery: Redmi Power Bank comes with high-
+density advanced Li-
+polymer batteries that makes it more durable and optimizes charging efficiency</1li>
+<1i>18W Fast Charging: The new Redmi Power Bank comes with 18W Fast Charging
+. It supports 5.1V/2.4A, 9V/ 2A MAX and 12V/1.5A MAX charging outputs that ensures efficien
+t and quick charging for your devices</1li>
+<li>Classic Dual Port: Dual input ports (Micro-USB/USB-
+C) and Dual USB Output with smart charging -
+Redmi Power Bank intelligently adjusts power output up to 18W to deliver fast and efficien
+t charging for each connected device</1li>
+<li>Easy to carry: The product has been designed keeping the Indian usage in
+mind and is made for carry it on-the-
+go. The weight has been kept to a minimum for easy portability</li>
+</td>
+</tr>
+<tr>
+<td><img src="https://images-na.ssl-images-
+amazon.com/images/I/91t1tQezrxL._UL15@@_.jpg" alt="Image not found!" width="15@px" height=
+"20@px"></td>
+<td>Analog Watch/td>
+<td>Fastrack Analog Grey Dial Men's Watch-NM38015PL@3</td>
+<td>Rs:3,050.00</td>
+<td>
+<1i>24 Months Manufacturing warranty and 6 months Battery warranty</1i>
+<li>Water Resistence Depth: 5@ meters</li>
+
+ 
+
+<li>Recommended for customers looking for a small dial sized watches</li>
+<li>Band Color: Brown, Band Material: Leather. The case thickness is 14 mm
+
+and it has a buckle lock mechanism</1i>
+
+</td>
+
+</tr>
+</table>
+</body>
+</html>
+
+ 
+
+
+Experiment -4
+
+4. Design a web site for book information using frames, home page should contain two
+parts, left part should contain books list, and right part should contain book
+information.
+
+<!DOCTYPE htm1>
+<html>
+<head>
+<title>Programming Books</title>
+</head>
+<body>
+<hi>Jack Reacher Books</h1>
+<p>
+HTML Page implemented in Frames
+</p>
+<li>
+<a href="Exp4-1.html" target="r-col">Killing Floor</a>
+</1i><br>
+<li>
+<a href="Exp4-2.html" target="r-col">Die Trying</a>
+</1i><br>
+<li>
+<a href="Exp4-3.html" target="r-col">Tripwire</a>
+</li><br>
+<li>
+<a href="Exp2-4.html" target="r-col">The Visitor</a>
+</li><br>
+<li>
+<a href="Exp2-5.html" target="r-col">Echo Burning</a>
+</1i><br>
+<li>
+<a href="Exp2-6.html" target="r-col">Without Fail</a>
+</1i><br>
+<li>
+<a href="Exp2-7.html" target="r-col">Persuader</a>
+</1li><br>
+<li>
+<a href="Exp2-8.html" target="r-col">The Enemy</a>
+</li><br>
+<li>
+<a href="Exp2-9.html" target="r-col">One Shot</a>
+</1i><br>
+<li>
+<a href="Exp2-1@.html"target="r-col" >The Hard Way</a>
+</li><br>
+</body>
+</html>
+
+
+
+ 
+
+Experiment -5
+
+5. Design a web page to capture the user information such as name, gender, mobile number, mail id,
+city, state, and country using form elements.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+details {
+font-optical-sizing: 20;
+letter-spacing: 16;
+border-right-width: 10;
+background-color: pink;
+padding-block-end: 1000;
+}
+</style>
+</head>
+
+<body>
+<center>
+<h1>Students Bio-Data</h1>
+</center>
+<hr>
+
+<form action="">
+
+<div>Name:<input type="text" name="myName" class="StudentData"> </div><br>
+<div>USN:<input type="text" name="myUSN"> </div><br>
+
+<div>Mobile No:<input type="number" name="mySem"></div><br>
+<div>Year:<input type="number” name="Year"></div><br>
+<div>Email:<input type="email" name="myEmail"></div><br>
+<div>Are you eligible?:<input type="checkbox” name="checkbox" value="checkbox1i"> </
+div>
+<div> Gender: Male<input type="radio" name="gender"> Female
+<input type="radio” name="gender"></div><br>
+<div>
+<label for="Subject">Interested Subjects</label>
+<select name="Subject" id="sub">
+<option value="WT">Web Technology</option>
+ 
+
+<option value="java" selected>Java Programming</option>
+<option value="cc" >Cloud Compting</option>
+</select>
+</div><br>
+<div>City:<input type="text" name="myUSN"> </div><br>
+<div>state:<input type="text" name="myUSN"> </div><br>
+<divowWrite about Yourself:<br><textarea name="mytext"></textarea></div>
+<div><input type="submit" value="Submit">
+<input type="reset" name="reset"></div><br>
+
+</form>
+</body>
+</html>
+
+
+ 
+
+Experiment -6
+
